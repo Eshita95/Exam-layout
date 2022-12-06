@@ -276,6 +276,9 @@ nav img {
 
 .review{
     display: flex;
+    margin: 40px;
+    justify-content: space-around;
+    
 }
 
 .review-header{
@@ -283,14 +286,34 @@ nav img {
     align-items: center;
 }
 .review-header img{
-    width: 10%;
+    width: 20%;
     border-radius: 200px;
 }
 
-.fa-solid {
-    width: 40px;
+.review-card{
+    border: 1px solid gray;
+    border-radius: 20px;
+    width: 400px;
+
+}
+
+.review-card p{
+    padding: 20px;
+
+}
+
+.reviewer-name ul img{
+    width: 30px;
     color: orange;
 }
+
+.social ul li{
+	
+	display: inline;
+	padding: 1%;
+}
+
+
 
 .review-card{
 
@@ -347,5 +370,11 @@ nav img {
     color: wheat;
     padding-bottom: 12px;
 }
+
+.social ul{
+	list-style-type: none;
+}
+
+
 
 
